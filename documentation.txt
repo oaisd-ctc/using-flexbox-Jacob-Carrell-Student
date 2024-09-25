@@ -1,0 +1,17 @@
+All of the pseudo classes I researched and used came from the W3 Schools website.
+
+1. Hover
+
+https://www.w3schools.com/cssref/sel_hover.php
+
+2. First Child
+
+https://www.w3schools.com/cssref/sel_firstchild.php
+
+3. First of Type
+
+https://www.w3schools.com/cssref/sel_first-of-type.php
+
+4. nth Child
+
+https://www.w3schools.com/cssref/sel_nth-child.php

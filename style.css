@@ -1,0 +1,81 @@
+body {
+    background-color: #5b4966;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: #516ba8;
+    font-size: 20px;
+}
+
+.flex-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.flex1 {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #72a851;
+}
+
+.flex:hover {
+    background-color: red;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 20px;
+}
+
+.flex2:nth-child(odd) {
+    background-color: green;
+}
+
+.flex2:hover {
+    background-color: #7707e0;
+    color: #22f007;
+    flex-grow: 3;
+}
+
+.flex:first-child {
+    color: green;
+}
+
+.flex1:first-of-type {
+    background-color: grey;
+}
